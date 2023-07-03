@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+}
+
+<div class="container">
+    <div class="preview">
+        <div class="previewsecondLevel">Try it myself</div>
+        <p>Hello World</p>
+    </div>
+
+    <div class="preview2">
+        <div class="preview2secondLevel"> Try it myself with <br /> more style element</div>
+        <p> Hello World</p>
+    </div>
+</div>
+
+<style>
+    .previewsecondLevel {
+        color: rgb(101, 93, 223);
+    }
+
+    .preview {
+        margin-top: 2em;
+        /* 调整上方间距 */
+        background-color: #FFCC00;
+        font-size: 1.6em;
+        /* 设置字体大小 */
+        width: 250px;
+        /* 根据需要设置宽度值 */
+    }
+
+        .preview p {
+            color: white;
+        }
+
+    .preview2secondLevel {
+        color: rgb(61, 61, 79);
+    }
+
+    .preview2 {
+        background-color: rgb(73, 182, 137);
+        font-weight: bold;
+        font-size: 2em;
+        /* 设置字体大小 */
+        width: 400px;
+        /* 设置宽度值 */
+        padding: 0.7em;
+        /* 内边距 */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        /* 添加阴影效果 */
+        border-radius: 10px;
+        /* 添加圆角 */
+    }
+
+        .preview2 p {
+            color: white;
+        }
+</style>
+
+
